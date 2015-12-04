@@ -12,7 +12,6 @@ puts "---PART 1:---"
     @current_location[:horizontal] -= 1
     @houses << @current_location.dup
   elsif i == "v"
-    #@houses << @current_location.dup
     @current_location[:vertical] -= 1
     @houses << @current_location.dup
   elsif i == ">"
@@ -20,7 +19,6 @@ puts "---PART 1:---"
     @current_location[:horizontal] += 1
     @houses << @current_location.dup
   elsif i == "^"
-    #@houses << @current_location.dup
     @current_location[:vertical] += 1
     @houses << @current_location.dup
   end
